@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "addressqr",
+  "type": "registry:block",
+  "title": "Address QR",
+  "description": "A QR code component for an address",
+  "dependencies": [
+    "cuer"
+  ],
+  "files": [
+    {
+      "path": "registry/addressqr/addressqr.tsx",
+      "content": "import { Cuer } from 'cuer';\r\n\r\nexport function AddressQR() {\r\n  return <Cuer value=\"vitalik.eth\" className=\"size-32\" />;\r\n}\r\n",
+      "type": "registry:component"
+    }
+  ]
+}

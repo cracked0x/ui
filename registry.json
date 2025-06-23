@@ -70,6 +70,20 @@
           "target": "src/lib/types/api.ts"
         }
       ]
+    },
+    {
+      "name": "addressqr",
+      "type": "registry:block",
+      "title": "Address QR",
+      "description": "A QR code component for an address",
+      "tags": ["qr"],
+      "dependencies": ["cuer"],
+      "files": [
+        {
+          "path": "registry/addressqr/addressqr.tsx",
+          "type": "registry:component"
+        }
+      ]
     }
   ]
 }
