@@ -7,8 +7,8 @@
     {
       "name": "token-selector",
       "type": "registry:component",
-      "title": "a token selector component",
-      "description": "a evm multichain token selector",
+      "title": "A token selector component",
+      "description": "A evm-based multichain token selector",
       "dependencies": ["viem", "numeral"],
       "devDependencies": ["@types/numeral"],
       "registryDependencies": [
@@ -68,6 +68,20 @@
           "path": "registry/token-selector/lib/types/api.ts",
           "type": "registry:file",
           "target": "src/lib/types/api.ts"
+        }
+      ]
+    },
+    {
+      "name": "addressqr",
+      "type": "registry:block",
+      "title": "Address QR",
+      "description": "A QR code component for an address",
+      "tags": ["qr"],
+      "dependencies": ["cuer"],
+      "files": [
+        {
+          "path": "registry/addressqr/addressqr.tsx",
+          "type": "registry:component"
         }
       ]
     }
