@@ -93,7 +93,7 @@
       "registryDependencies": ["input"],
       "files": [
         {
-          "path": "registry/spotlight-input/index.tsx",
+          "path": "registry/spotlight-input/spotlight-input.tsx",
           "type": "registry:component"
         }
       ]
