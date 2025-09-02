@@ -84,6 +84,19 @@
           "type": "registry:component"
         }
       ]
+    },
+    {
+      "name": "spotlight-input",
+      "type": "registry:component",
+      "title": "Spotlight Input",
+      "description": "An input component with spotlight border",
+      "registryDependencies": ["input"],
+      "files": [
+        {
+          "path": "registry/spotlight-input/index.tsx",
+          "type": "registry:component"
+        }
+      ]
     }
   ]
 }

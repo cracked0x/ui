@@ -67,7 +67,7 @@ const SpotlightInput = ({
         autoComplete="off"
         {...props}
         className={cn(
-          "h-12 focus-visible:ring-0 focus-visible:border-neutral-800 transition-colors duration-300 ease-in-out",
+          "h-12 focus-visible:ring-0 focus-visible:border-neutral-800 dark:focus-visible:border-neutral-200 transition-colors duration-300 ease-in-out",
           borderClass
         )}
       />
@@ -80,7 +80,7 @@ const SpotlightInput = ({
         }}
         aria-hidden="true"
         className={cn(
-          "absolute left-0 top-0 z-10 h-12 w-full pointer-events-none border-neutral-800 bg-transparent opacity-0 transition-colors duration-300 ease-in-out rounded-md",
+          "absolute left-0 top-0 z-10 h-12 w-full pointer-events-none border-neutral-800 dark:border-neutral-200 bg-transparent opacity-0 transition-colors duration-300 ease-in-out rounded-md",
           borderClass
         )}
       />
