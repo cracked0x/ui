@@ -2,8 +2,8 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "token-selector",
   "type": "registry:component",
-  "title": "a token selector component",
-  "description": "a evm multichain token selector",
+  "title": "A token selector component",
+  "description": "A evm-based multichain token selector",
   "dependencies": [
     "viem",
     "numeral"
