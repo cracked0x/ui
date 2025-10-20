@@ -24,7 +24,7 @@
     "numeral": "^2.0.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "shadcn": "^2.7.0",
+    "shadcn": "^3.4.2",
     "tailwind-merge": "^3.3.1",
     "vaul": "^1.1.2",
     "viem": "^2.31.4"
