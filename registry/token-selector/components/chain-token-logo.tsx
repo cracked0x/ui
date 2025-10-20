@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
-import { ChainIds, Chains } from '../constants/chains';
-import { getChainImagePath, getTokenLogoURI } from '../lib/logo';
-import { Token } from '../lib/types/api';
+import { ChainIds, Chains } from "@/registry/token-selector/constants/chains";
+import { getChainImagePath, getTokenLogoURI } from '@/registry/token-selector/lib/logo';
+import { Token } from '@/registry/token-selector/lib/types/api';
 
 const ChainTokenLogo = ({ token }: { token: Token }) => {
   return (

@@ -1,10 +1,10 @@
 'use client';
 
 import * as React from 'react';
-import { useMediaQuery } from '../hooks/useMediaQuery';
-import { Token } from '../lib/types/api';
-import { ChainIds } from '../constants/chains';
-import { useEvmTokenBalances } from '../hooks/useEvmTokenBalances';
+import { useMediaQuery } from '@/registry/token-selector/hooks/useMediaQuery';
+import { Token } from '@/registry/token-selector/lib/types/api';
+import { ChainIds } from '@/registry/token-selector/constants/chains';
+import { useEvmTokenBalances } from '@/registry/token-selector/hooks/useEvmTokenBalances';
 import {
   Dialog,
   DialogContent,
@@ -28,10 +28,10 @@ import {
   CommandList,
 } from '@/components/ui/command';
 import { Button } from '@/components/ui/button';
-import { ChainTokenLogo } from './chain-token-logo';
+import { ChainTokenLogo } from '@/registry/token-selector/components/chain-token-logo';
 import { ChevronsUpDown } from 'lucide-react';
 import { Skeleton } from '@/components/ui/skeleton';
-import { formatNumber, formatTokenAmount, tokenKey } from '../lib/format';
+import { formatNumber, formatTokenAmount, tokenKey } from '@/registry/token-selector/lib/format';
 import { cn } from '@/lib/utils';
 
 export interface TokenSelectorProps {
