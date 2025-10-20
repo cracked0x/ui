@@ -3,9 +3,9 @@ import { CHAINS } from '@/registry/token-selector/constants/chains';
 import {
   useGetApiKey,
   useGetProxyUrl,
-} from '@/registry/token-selector/components/dune-provider';
+} from '@/registry/token-selector/components/token-selector/dune-provider';
 import { useDeepMemo } from '@/registry/token-selector/hooks/useDeepMemo';
-import { fetchEvmBalances } from '@/registry/token-selector/lib/dune-api';
+import { fetchEvmBalances } from '@/registry/token-selector/lib/utils/dune-api';
 import { BalanceData, FetchError, TokensParams } from '@/registry/token-selector/lib/types/api';
 import { isAddress } from 'viem';
 

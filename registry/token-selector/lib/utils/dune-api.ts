@@ -1,10 +1,10 @@
-import { removeTrailingSlash } from '@/registry/token-selector/lib/format';
+import { removeTrailingSlash } from '@/registry/token-selector/lib/utils/format';
 import {
   BalanceData,
   TokensParams,
   TransactionData,
   TransactionsParams,
-} from '../lib/types/api';
+} from '@/registry/token-selector/lib/types/api';
 
 const BASE_URL = 'https://api.dune.com';
 const BALANCES_PREFIX = 'api/echo/v1/balances/evm';

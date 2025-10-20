@@ -1,6 +1,5 @@
-import { Chains, ChainIds } from '../constants/chains';
+import { Chains, ChainIds } from '@/registry/token-selector/constants/chains';
 import { getAddress } from 'viem';
-import { Token } from '../lib/types/api';
 
 export const isTokenNative = (address: string) =>
   address &&
@@ -90,6 +89,3 @@ const lineaTokenLogoURIs: {
   '0xcc22F6AA610D1b2a0e89EF228079cB3e1831b1D1':
     'https://linea.velocore.xyz/assets/LVC-8ac4b844.svg',
 };
-
-export const tokenKey = (token: Token) =>
-  `${token.chain}:${token.address}:${token.symbol}`;
