@@ -1,4 +1,4 @@
-import { ChainIds } from '../../constants/chains';
+import { ChainIds } from '@/registry/token-selector/constants/chains';
 
 export type Token = {
   chain: string;
