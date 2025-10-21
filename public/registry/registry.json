@@ -116,6 +116,20 @@
           "type": "registry:component"
         }
       ]
+    },
+    {
+      "name": "number-ticker",
+      "type": "registry:ui",
+      "title": "Animated Number Ticker",
+      "description": "An animated number ticker",
+      "tags": ["number-ticker"],
+      "dependencies": ["motion"],
+      "files": [
+        {
+          "path": "registry/number-ticker/number-ticker.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }
